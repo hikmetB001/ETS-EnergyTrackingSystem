@@ -7,7 +7,228 @@
 	(title_block
 		(date "2025-04-05")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "User_HB_Library_001:inductor_User_HB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "inductor_User_HB_0_1"
+				(arc
+					(start -2.032 1.27)
+					(mid -1.524 1.7758)
+					(end -1.016 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 1.27)
+					(mid -0.508 1.7758)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.508 1.7758)
+					(end 1.016 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.27)
+					(mid 1.524 1.7758)
+					(end 2.032 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "inductor_User_HB_1_1"
+				(pin input line
+					(at -2.54 1.27 0)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 1.27 180)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 25.4 30.48) (xy 40.64 30.48) (xy 40.64 44.45) (xy 26.67 44.45) (xy 25.4 43.18)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 688001cf-700d-4ea3-813d-1999286ca438)
+		)
+	)
+	(symbol
+		(lib_id "User_HB_Library_001:inductor_User_HB")
+		(at 31.75 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f379c7e8-19ff-410c-b599-73fa30173620")
+		(property "Reference" "L1"
+			(at 31.75 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 31.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a00e059-7a83-4d46-a851-912fc9b2fd97")
+		)
+		(pin "2"
+			(uuid "95cc5870-6125-440f-9fc8-5af1aae60579")
+		)
+		(instances
+			(project ""
+				(path "/a940b775-bf67-4224-b5c3-1d071abb9d1b"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
