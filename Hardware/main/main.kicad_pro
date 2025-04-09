@@ -611,6 +611,10 @@
     [
       "a940b775-bf67-4224-b5c3-1d071abb9d1b",
       "Root"
+    ],
+    [
+      "a0ee3100-f5ec-4c62-bf82-fe27224139a1",
+      "ETS_GIT_POWER"
     ]
   ],
   "text_variables": {}
