@@ -1,5 +1,59 @@
-(kicad_sch (version 20250114) (generator "eeschema") (generator_version "9.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a940b775-bf67-4224-b5c3-1d071abb9d1b")
+	(paper "A4")
+	(title_block
+		(date "2025-04-05")
+	)
+	(lib_symbols)
+	(sheet
+		(at 16.51 20.32)
+		(size 27.94 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a0ee3100-f5ec-4c62-bf82-fe27224139a1")
+		(property "Sheetname" "ETS_GIT_POWER"
+			(at 16.51 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ETS_GIT_POWER.kicad_sch"
+			(at 16.51 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/a940b775-bf67-4224-b5c3-1d071abb9d1b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
