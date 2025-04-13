@@ -741,7 +741,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:AMS1117"
+		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -753,7 +753,7 @@
 					)
 				)
 			)
-			(property "Value" "AMS1117"
+			(property "Value" "AMS1117-3.3"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -780,7 +780,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1A Low Dropout regulator, positive, adjustable output, SOT-223"
+			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -789,7 +789,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "linear regulator ldo adjustable positive"
+			(property "ki_keywords" "linear regulator ldo fixed positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -807,7 +807,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AMS1117_0_1"
+			(symbol "AMS1117-3.3_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 1.905)
@@ -820,7 +820,7 @@
 					)
 				)
 			)
-			(symbol "AMS1117_1_1"
+			(symbol "AMS1117-3.3_1_1"
 				(pin power_in line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -839,10 +839,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
-					(name "ADJ"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3800,6 +3800,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:AMS1117-3.3")
+		(at 210.82 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f439c8a-9489-46b7-95f6-b248f76e385f")
+		(property "Reference" "U6"
+			(at 210.82 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-3.3"
+			(at 210.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 210.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 213.36 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 210.82 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5c3ad512-073e-4c42-8b7a-287964218647")
+		)
+		(pin "1"
+			(uuid "f2d922d2-13d9-4657-aa93-51541dfac9d4")
+		)
+		(pin "2"
+			(uuid "90fbe5f3-b36a-414b-837b-ae6e28260834")
+		)
+		(instances
+			(project "main"
+				(path "/a940b775-bf67-4224-b5c3-1d071abb9d1b/a0ee3100-f5ec-4c62-bf82-fe27224139a1"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "User_HB_Library:INDUCTOR_12x12x8_HB")
 		(at 154.94 36.83 0)
 		(unit 1)
@@ -4633,77 +4704,6 @@
 			(project "main"
 				(path "/a940b775-bf67-4224-b5c3-1d071abb9d1b/a0ee3100-f5ec-4c62-bf82-fe27224139a1"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:AMS1117")
-		(at 210.82 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df1a4c8f-9654-4243-be6b-840d8705da3b")
-		(property "Reference" "U3"
-			(at 210.82 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMS1117"
-			(at 210.82 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 210.82 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 213.36 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Low Dropout regulator, positive, adjustable output, SOT-223"
-			(at 210.82 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "17c2e2e5-09d6-41d8-bcb9-852ae88518cf")
-		)
-		(pin "3"
-			(uuid "4ef10660-af3c-4d3e-8113-27ebec351192")
-		)
-		(pin "1"
-			(uuid "17a519d8-257a-46e5-be2f-13dfb0e5fddd")
-		)
-		(instances
-			(project "main"
-				(path "/a940b775-bf67-4224-b5c3-1d071abb9d1b/a0ee3100-f5ec-4c62-bf82-fe27224139a1"
-					(reference "U3")
 					(unit 1)
 				)
 			)
