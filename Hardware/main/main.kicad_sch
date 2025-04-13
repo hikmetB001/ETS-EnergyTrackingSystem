@@ -9,6 +9,48 @@
 	)
 	(lib_symbols)
 	(sheet
+		(at 52.07 20.32)
+		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "43cec6c4-79df-4c17-bc2e-1778e7616ec7")
+		(property "Sheetname" "ETS_GIT_CANBUS"
+			(at 52.07 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ETS_GIT_CANBUS.kicad_sch"
+			(at 52.07 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/a940b775-bf67-4224-b5c3-1d071abb9d1b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 16.51 20.32)
 		(size 27.94 15.24)
 		(exclude_from_sim no)

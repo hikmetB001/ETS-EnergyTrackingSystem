@@ -615,6 +615,10 @@
     [
       "a0ee3100-f5ec-4c62-bf82-fe27224139a1",
       "ETS_GIT_POWER"
+    ],
+    [
+      "43cec6c4-79df-4c17-bc2e-1778e7616ec7",
+      "ETS_GIT_CANBUS"
     ]
   ],
   "text_variables": {}
