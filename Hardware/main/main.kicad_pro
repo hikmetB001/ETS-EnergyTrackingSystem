@@ -619,6 +619,10 @@
     [
       "43cec6c4-79df-4c17-bc2e-1778e7616ec7",
       "ETS_GIT_CANBUS"
+    ],
+    [
+      "486fe118-ac53-44f2-9fa5-f093407a4547",
+      "ETS_GIT_ETHERNET"
     ]
   ],
   "text_variables": {}

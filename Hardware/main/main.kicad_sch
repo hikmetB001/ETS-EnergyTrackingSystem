@@ -51,6 +51,48 @@
 		)
 	)
 	(sheet
+		(at 86.36 20.32)
+		(size 24.13 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "486fe118-ac53-44f2-9fa5-f093407a4547")
+		(property "Sheetname" "ETS_GIT_ETHERNET"
+			(at 86.36 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ETS_GIT_ETHERNET.kicad_sch"
+			(at 86.36 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/a940b775-bf67-4224-b5c3-1d071abb9d1b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 16.51 20.32)
 		(size 27.94 15.24)
 		(exclude_from_sim no)
