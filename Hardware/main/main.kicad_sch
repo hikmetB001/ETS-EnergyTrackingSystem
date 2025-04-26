@@ -9,7 +9,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 52.07 20.32)
+		(at 63.5 22.86)
 		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25,7 +25,7 @@
 		)
 		(uuid "43cec6c4-79df-4c17-bc2e-1778e7616ec7")
 		(property "Sheetname" "ETS_GIT_CANBUS"
-			(at 52.07 19.6084 0)
+			(at 63.5 22.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,7 +34,7 @@
 			)
 		)
 		(property "Sheetfile" "ETS_GIT_CANBUS.kicad_sch"
-			(at 52.07 36.1446 0)
+			(at 63.5 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,7 +51,7 @@
 		)
 	)
 	(sheet
-		(at 86.36 20.32)
+		(at 97.79 22.86)
 		(size 24.13 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -67,7 +67,7 @@
 		)
 		(uuid "486fe118-ac53-44f2-9fa5-f093407a4547")
 		(property "Sheetname" "ETS_GIT_ETHERNET"
-			(at 86.36 19.6084 0)
+			(at 97.79 22.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76,7 +76,7 @@
 			)
 		)
 		(property "Sheetfile" "ETS_GIT_ETHERNET.kicad_sch"
-			(at 86.36 37.4146 0)
+			(at 97.79 39.9546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
